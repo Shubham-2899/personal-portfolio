@@ -26,7 +26,7 @@ const Home = () => {
         </div>
       </div>
       <div className="skills">
-        <h2> Skills</h2>
+        <h2> skills</h2>
         <ol class="list">
           <li class="item">
             <h2 class="headline">Front-End</h2>

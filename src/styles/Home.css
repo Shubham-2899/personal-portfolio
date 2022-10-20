@@ -46,6 +46,7 @@
 .skills h2 {
   color: #3e497a;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .skills .list {

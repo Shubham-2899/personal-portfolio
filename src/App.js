@@ -1,4 +1,5 @@
 
+import { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
@@ -9,6 +10,9 @@ import ProjectDisplay from './Pages/ProjectDisplay';
 import Projects from './Pages/Projects';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Shubham\'s Portfolio';
+  });
   return (
     <div className='App'>
       <Router>
