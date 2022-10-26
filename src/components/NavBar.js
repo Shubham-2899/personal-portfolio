@@ -2,15 +2,17 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/NavBar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
+import Pdf from '../assets/shubhamResumeFresher.pdf';
+
 
 const NavBar = () => {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
-  const location=useLocation();
+  const location = useLocation();
 
-  useEffect(()=>{
+  useEffect(() => {
     setExpandNavbar(false);
-  },[location])
+  }, [location])
 
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
@@ -27,6 +29,7 @@ const NavBar = () => {
         <Link to={"/"}>Home</Link>
         <Link to={"/projects"}>Projects</Link>
         <Link to={"/experience"}>Experience</Link>
+        <a href={Pdf} target="_blank" rel="noreferrer">Resume</a>
       </div>
     </div>
   );

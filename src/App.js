@@ -9,10 +9,11 @@ import Home from './Pages/Home';
 import ProjectDisplay from './Pages/ProjectDisplay';
 import Projects from './Pages/Projects';
 
+
 function App() {
   useEffect(() => {
     document.title = 'Shubham\'s Portfolio';
-  });
+  }, []);
   return (
     <div className='App'>
       <Router>
