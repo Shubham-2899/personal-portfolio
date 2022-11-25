@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import BackToTop from './components/BackToTop';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import Experience from './Pages/Experience';
@@ -25,6 +26,7 @@ function App() {
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path='/experience' element={<Experience />} />
         </Routes>
+        <BackToTop />
         <Footer />
       </Router>
     </div>
