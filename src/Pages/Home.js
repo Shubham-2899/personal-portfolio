@@ -36,15 +36,15 @@ const Home = () => {
           </li>
           <li class="item">
             <h2 class="headline">Back-End</h2>
-            <span>NodeJS, Java , MySQL, MongoDB</span>
+            <span>NodeJS, MySQL</span>
           </li>
           <li class="item">
             <h2 class="headline">Languages</h2>
-            <span>JavaScript, TypeScript, Java, C</span>
+            <span>JavaScript, TypeScript, C</span>
           </li>
           <li class="item">
             <h2 class="headline">Clouds</h2>
-            <span>AWS , Terraform(IaSS) </span>
+            <span>Novice- AWS , Terraform(IaSS) </span>
           </li>
         </ol>
       </div>
