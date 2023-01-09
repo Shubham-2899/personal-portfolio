@@ -23,7 +23,7 @@ const Footer = () => {
           <EmailIcon />
         </Link>
       </div>
-      <p> &copy: 2022 shubhamlatake.com</p>
+      <p> ©{new Date().getFullYear()} made with ♥</p>
     </div>
   )
 }
